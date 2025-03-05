@@ -58,6 +58,49 @@ a {
 }
 
 
+ .brandlogo{
+    margin-top: 50px;
+}
+.wrap2{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+border: 1px solid lightgray;
+border-radius: 10px;
+justify-content:space-between;
+flex-wrap: wrap;
+background-color: pink; 
+background-color: black;
+background-color: rgba(211, 211, 211, 0.329);
+
+
+}
+.brand1{
+    gap: 0;
+width: 200px;
+height: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.brand1 img{
+    width: 170px;
+} 
+
+ .bg-dark{
+    background-color: white !important; 
+    width: 170px;
+    display: flex;
+    border-color: white;
+            justify-content: center;
+            align-items: center;}
+        
+        .col-sm-4{
+            width: 250px !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
 
 
