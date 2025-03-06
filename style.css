@@ -1,678 +1,624 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
-    position: relative;
+  position: relative;
 }
 
 .hero-caption {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .button a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-.fa-bars,.contact {
-    display: none;
+.fa-bars,
+.contact {
+  display: none;
 }
-
-
-
-
 
 ul,
 li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .cheez {
-    position: relative;
-    display: flex;
-    gap: 20px;
+  position: relative;
+  display: flex;
+  gap: 20px;
 }
 
 .menu-item {
-    position: relative;
+  position: relative;
 }
 
-.menu-item>a {
-    color: white;
-    padding: 10px 20px;
-    display: inline-block;
-    cursor: pointer;
-    position: relative;
+.menu-item > a {
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
 }
 
-
- .brandlogo{
-    margin-top: 50px;
+.brandlogo {
+  margin-top: 50px;
 }
-.wrap2{
-    margin: 0 auto;
-    width: 90%;
-    display: flex;
-border: 1px solid lightgray;
-border-radius: 10px;
-justify-content:space-between;
-flex-wrap: wrap;
-background-color: pink; 
-background-color: black;
-background-color: rgba(211, 211, 211, 0.329);
-
-
+.wrap2 {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: pink;
+  background-color: black;
+  background-color: rgba(211, 211, 211, 0.329);
 }
-.brand1{
-    gap: 0;
-width: 200px;
-height: 120px;
-display: flex;
-justify-content: center;
-align-items: center;
+.brand1 {
+  gap: 0;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.brand1 img{
-    width: 170px;
-} 
+.brand1 img {
+  width: 170px;
+}
 
- .bg-dark{
-    background-color: white !important; 
-    width: 170px;
-    display: flex;
-    border-color: white;
-            justify-content: center;
-            align-items: center;}
-        
-        .col-sm-4{
-            width: 250px !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.bg-dark {
+  background-color: white !important;
+  width: 170px;
+  display: flex;
+  border-color: white;
+  justify-content: center;
+  align-items: center;
+}
 
-
+.col-sm-4 {
+  width: 250px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .cheez {
-    width: 500px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-
+  width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cheez a {
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    color: #000;
-    font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-size: 16px;
 }
 
-
-
 .navbarfz {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-
-    background-color: #fff;
-
+  background-color: #fff;
 }
 
 .wrapperfz {
-    width: 90%;
-    height: 80px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .iconsw {
-    width: 150px;
+  width: 150px;
 
-    font-size: larger;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  font-size: larger;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-
-
 .button {
-    width: 200px;
-    background-color: #fff;
-    border: 10px solid #fff;
-    border-radius: 50px;
+  width: 200px;
+  background-color: #fff;
+  border: 10px solid #fff;
+  border-radius: 50px;
 }
 
 .button a {
-    text-decoration: none;
-    color: darkolivegreen;
+  text-decoration: none;
+  color: darkolivegreen;
 }
-
-
 
 .carousel-caption {
-    background-color: rgba(109, 107, 105, 0.438);
-
-
-
-
+  background-color: rgba(109, 107, 105, 0.438);
 }
 
-
-
 .carousel-caption p {
-    font-size: x-large;
-    color: #fff;
+  font-size: x-large;
+  color: #fff;
 }
 
 .carousel-caption h5 {
-    font-weight: bolder;
-    font-size: xx-large;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
 .shop {
-    margin-top: 50px;
-    display: flex;
-    font-weight: bolder;
-    justify-content: start;
+  margin-top: 50px;
+  display: flex;
+  font-weight: bolder;
+  justify-content: start;
 }
 
 .wrapper3 {
-    width: 90%;
-    display: flex;
-    font-size: 20px;
-    flex-wrap: wrap;
-    margin: 0 auto;
+  width: 90%;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .c1b {
-    width: 100px;
-    height: 30px;
-    background-color: #fff;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: -40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100px;
+  height: 30px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .c2b {
-    width: 100px;
-    height: 30px;
-    background-color: #fff;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: -40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100px;
+  height: 30px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .c3b {
-    width: 150px;
-    height: 30px;
-    background-color: #fff;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: -40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  width: 150px;
+  height: 30px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
-
 
 .c1b a,
 .c2b a,
 .c3b a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-
 .cards {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .wrap {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .card1 {
-    width: 250px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card2 {
-    width: 250px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card3 {
-    width: 250px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card4 {
-    width: 250px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: start;
-    font-size: 10px;
-    justify-content: center;
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: start;
+  font-size: 10px;
+  justify-content: center;
 }
 
 .card1 img,
 .card2 img,
 .card3 img {
-    border-radius: 20px;
-    width: 250px;
-    height: 300px;
+  border-radius: 20px;
+  width: 250px;
+  height: 300px;
 }
 
 .card44 {
-    margin: 0 auto;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 30px;
-    justify-content: center;
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  justify-content: center;
 }
 
 .card4i {
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    border-radius: 50%;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bestseller,
 .newcards {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .wrapper4 {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    margin-top: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .loadbutton {
-    width: 150px;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
 }
-.loadbutton a{
-    color: #000;
-    text-decoration: none;
+.loadbutton a {
+  color: #000;
+  text-decoration: none;
 }
 
 .newcard2 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .ncard1 {
-    width: 360px;
-    height: 400px;
-    box-shadow: 1px 1px 5px gray;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
+  width: 360px;
+  height: 400px;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 .nncard1 h4 {
-    width: 310px;
-    margin-top: 12px;
-    font-size: 20px;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-
-
+  width: 310px;
+  margin-top: 12px;
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
 }
 
 .nncard1 p {
-    width: 325px;
-    margin-top: 5px;
-    font-size: 16px;
-    text-align: left;
-    display: flex;
-    color: #000;
-    font-weight: 400;
-
+  width: 325px;
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  color: #000;
+  font-weight: 400;
 }
 
 .nncard1 {
-    width: 310px;
-    margin-top: 30px;
-    height: 380px;
-    display: flex;
-    flex-direction: column;
+  width: 310px;
+  margin-top: 30px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
 }
 
 .nncard2 {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    width: 310px;
-    margin-top: 20px;
-
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 310px;
+  margin-top: 20px;
 }
 
 .nncard2 h3 {
-
-    font-size: 15px;
-    width: 150px;
-    font-size: 15px;
-    text-align: left;
-    display: flex;
-    justify-content: start;
-    align-items: start;
+  font-size: 15px;
+  width: 150px;
+  font-size: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: start;
+  align-items: start;
 }
 
 .nncard2 p {
-    font-size: 15px;
-    text-align: left;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    width: 180px;
-    font-size: 13px;
-    color: grey;
+  font-size: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 180px;
+  font-size: 13px;
+  color: grey;
 }
 
 .iconcard {
-    width: 130px;
-    margin-top: 10px;
+  width: 130px;
+  margin-top: 10px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .line {
-    background-color: lightgray;
-    width: 310px;
-    height: 1px;
-    padding: 0;
-    margin: 0;
-    margin-top: 30px;
-
-
+  background-color: lightgray;
+  width: 310px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
 }
 
 .prod {
-    display: flex;
-    width: 310px;
-    padding: 0;
-    margin: 0;
-    margin-top: 30px;
-
-
-
-
+  display: flex;
+  width: 310px;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
 }
 
 .text p,
 .text h6 {
-    width: 50px;
-    padding: 0;
-    margin: 0;
-    margin-top: 5px;
-
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
 }
 
 .prod img {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .container1 {
-    background-color: plum !important;
-    margin: 0 auto;
-    width: 90% !important;
-    margin-top: 50px;
-    border-radius: 10px;
+  background-color: plum !important;
+  margin: 0 auto;
+  width: 90% !important;
+  margin-top: 50px;
+  border-radius: 10px;
 
-    border: 1px solid lightgray;
-
+  border: 1px solid lightgray;
 }
 
-
-
-
 .contmain {
-    margin-top: 80px;
-    margin-bottom: 50px;
-    list-style: none;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  list-style: none;
 }
 
 .rowfoot {
-    margin: 0 auto;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-between;
 }
 
 .colfoot {
-    width: 280px;
-    font-size: 14px;
+  width: 280px;
+  font-size: 14px;
 }
 
 .colfoota {
-    margin-top: 20px;
-
-
+  margin-top: 20px;
 }
 
 .colfoot a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 .ppss {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .ppss p {
-    padding: 5px;
-    margin: 0;
+  padding: 5px;
+  margin: 0;
 }
 
 .cardbodyfoot {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .cardbodyfoot li {
-    list-style: none;
+  list-style: none;
 }
 
 .cardbodyfoot img {
-    width: 100px;
+  width: 100px;
 }
 
 .contacticon {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    width: 200px;
-
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 200px;
 }
 
 .golicon {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapping {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(167, 161, 161);
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(167, 161, 161);
 }
 
 #subs input {
-    padding: 14px 100px 14px 8px;
-    border: 1px solid lightgray;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    text-align: start;
+  padding: 14px 100px 14px 8px;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
 }
 
 #subs {
-    margin-top: 20px;
-    position: relative;
-    display: flex;
-    justify-content: start;
-    align-items: start;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: start;
 }
 
 .butosub {
-    margin-top: -44px;
-    margin-left: 150px;
-    position: absolute;
-    width: 110px;
-    height: 38px;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+  margin-top: -44px;
+  margin-left: 150px;
+  position: absolute;
+  width: 110px;
+  height: 38px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
-.cardinNe{
-    text-align: center;
-    background-color: #fbf7f0;
-    margin-top: 50px;
-    margin-bottom: 150px;
-
+.cardinNe {
+  text-align: center;
+  background-color: #fbf7f0;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
-.wrapcar{
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 90%;
+.wrapcar {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
 
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.cane1,.cane2,.cane3{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
+.cane1,
+.cane2,
+.cane3 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
 
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.cardbagg{
-    width: 250px;
-    height: 300px;
-
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    margin-top: 50px;
-
-}
-.cardbagg img{
-    border-radius: 20px;
-    width: 248px;
-    height: 298px; 
-}
-.bagprice p,.bagprice h5{
-    margin: 0;
-    padding: 0;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
 }
 
+.cardbagg {
+  width: 250px;
+  height: 300px;
 
-
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.cardbagg img {
+  border-radius: 20px;
+  width: 248px;
+  height: 298px;
+}
+.bagprice p,
+.bagprice h5 {
+  margin: 0;
+  padding: 0;
+}
